@@ -1,0 +1,7 @@
+<library path="fallback_goal_checker">
+  <class type="nav2_fallback_goal_checker::FallbackGoalChecker" base_class_type="nav2_core::GoalChecker">
+    <description>
+      Goal Checker that uses strict tolerances initially, but falls back to looser tolerances if the robot is stuck near the goal for too long.
+    </description>
+  </class>
+</library>
